@@ -1,0 +1,22 @@
+{
+  "contracts": {
+    "TodoList": "85105b231da7112828a1ee7b27517f262c4bad52"
+  },
+  "tests": {
+    "tests/integration/test_deploy_todo_list_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "b606d575c642618534dd6a543223c34b43456d84",
+      "txhash": []
+    },
+    "tests/unit/test_deploy_todo_list.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "s.",
+      "sha1": "9128dcc97966219cfeba5581a11551bf7272765f",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
