@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App"
 import reportWebVitals from './reportWebVitals';
-import {DAppProvider, ChainId} from "@usedapp/core";
+import {DAppProvider, ChainId, Rinkeby} from "@usedapp/core";
 
 ReactDOM.render(
   <React.StrictMode>
       <DAppProvider config={{
-          supportedChains: [ChainId.Rinkeby, ChainId.Kovan]
+          networks: [Rinkeby]
       }}>
            <App />
       </DAppProvider>
